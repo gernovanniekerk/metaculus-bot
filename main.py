@@ -73,6 +73,10 @@ def build_sources(settings: Settings, guard: BudgetGuard) -> list:
 
 
 def main() -> int:
+    # The banners use emoji; a Windows console defaults to cp1252.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
