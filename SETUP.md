@@ -57,15 +57,10 @@ create an API key: `EXA_API_KEY`. Not free for the tournament; Metaculus lists i
 at half a cent per search plus a tenth of a cent per page, which is about
 1 US cent per question here. It counts against the bot's US$50 cap.
 
-**6. GitHub repo and secrets (15 min).**
-- Create a new repo under your personal GitHub account and push this one to it
-  (or tell me the repo URL and I'll push).
-- **Public or private:** public is recommended. Actions minutes are free on
-  public repos, Metaculus gives open-source bots about double the credits, and a
-  winner has to disclose the code or method anyway. On a private repo the free
-  allowance is 2,000 minutes a month and the 20-minute schedule needs about
-  2,200 runs a month, so change the schedule in
-  `.github/workflows/run_bot_on_tournament.yaml` to every 30 or 60 minutes.
+**6. GitHub secrets (10 min).**
+- The repo already exists and is public (created and pushed 6 Oct 2026):
+  https://github.com/gernovanniekerk/metaculus-bot. Actions is switched OFF
+  until the secrets are in, so the schedule can't fail every 20 minutes.
 - Settings → Secrets and variables → Actions → **New repository secret**, one
   each: `METACULUS_TOKEN`, `ANTHROPIC_API_KEY`, `ASKNEWS_CLIENT_ID`,
   `ASKNEWS_SECRET` (or `ASKNEWS_API_KEY`), `EXA_API_KEY`, and
@@ -74,7 +69,9 @@ at half a cent per search plus a tenth of a cent per page, which is about
   (default 50).
 
 **7. Turn it on and test (10 min, plus about 10 min waiting).**
-- Actions tab → "I understand my workflows, go ahead and enable them".
+- Settings → Actions → General → Actions permissions → **Allow all actions and
+  reusable workflows** → Save. (The workflows ask for `contents: write`
+  themselves, to commit the spend ledger back.)
 - Actions → **Test Bot** → Run workflow. This runs the offline tests, then
   forecasts on Metaculus's practice tournament (bot-testing-area). It costs real
   money: roughly US$0.30 a question, a few dollars in all (estimate).
