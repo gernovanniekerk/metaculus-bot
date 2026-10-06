@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "metac-bot-template"
+name = "metaculus-bot"
 version = "0.1.0"
-description = ""
-authors = ["Vasile Popescu <elisescu@elisescu.com>"]
+description = "Gerno van Niekerk's personal entry for the Metaculus FutureEval AI forecasting bot tournament, built on metac-bot-template."
+authors = ["Gerno van Niekerk"]
 readme = "README.md"
 package-mode = false
 
@@ -14,21 +14,20 @@ asknews = "^0.13.11"
 numpy = "^2.3.0"
 openai = "^2.0.0"
 python-dotenv = "^1.0.1"
-forecasting-tools = ">=0.2.90,<0.4.0"
-
-
-[tool.poetry.group.integrations]
-optional = true
-
-[tool.poetry.group.integrations.dependencies]
-lightningrod-ai = "^0.1.14"
-metaculus-bot-review = "^0.1.1"
-
+# 0.3.2+ carries the Fall 2026 tournament IDs. The upstream template lock was
+# stuck on 0.2.92 because of the optional bot-review integration, which this
+# repo drops.
+forecasting-tools = ">=0.3.2,<0.4.0"
+# Official Anthropic SDK: every LLM call goes through gerno_bot/claude_client.py,
+# which meters spend against the monthly cap.
+anthropic = ">=1.11,<2.0"
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.29.5"
+pytest = "^8.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]

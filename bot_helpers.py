@@ -3,8 +3,7 @@ Runtime helpers for the template bot: environment validation, startup/result
 banners, and suppression of noisy upstream warnings.
 
 Kept separate from main.py so that file can focus on the bot's forecasting
-logic. main_with_no_framework.py keeps its own inline copies on purpose --
-it's meant to be a single-file reference implementation.
+logic. (From metac-bot-template; check_environment adapted for this bot.)
 """
 from __future__ import annotations
 
@@ -57,8 +56,10 @@ def silence_noisy_dependencies() -> None:
 
 def check_environment(strict: bool = True) -> None:
     """
-    Verify METACULUS_TOKEN is set; warn if no LLM key is configured. On
-    failure with strict=True, exits the process with a non-zero status.
+    Verify METACULUS_TOKEN and an LLM key (ANTHROPIC_API_KEY, or
+    OPENROUTER_API_KEY for Metaculus's free credits) are set; warn if no
+    research source is configured. On failure with strict=True, exits the
+    process with a non-zero status.
     """
     problems: list[str] = []
 
@@ -68,15 +69,19 @@ def check_environment(strict: bool = True) -> None:
             "Get one at https://www.metaculus.com/futureeval/participate/"
         )
 
-    has_llm_key = any(
-        _is_real_env(k)
-        for k in ("OPENROUTER_API_KEY", "OPENAI_API_KEY", "ANTHROPIC_API_KEY")
+    if not any(_is_real_env(k) for k in ("ANTHROPIC_API_KEY", "OPENROUTER_API_KEY")):
+        problems.append(
+            "No LLM key: set ANTHROPIC_API_KEY (your personal Anthropic Console key) "
+            "or OPENROUTER_API_KEY (Metaculus free credits)."
+        )
+
+    has_research = _is_real_env("EXA_API_KEY") or _is_real_env("ASKNEWS_API_KEY") or (
+        _is_real_env("ASKNEWS_CLIENT_ID") and _is_real_env("ASKNEWS_SECRET")
     )
-    if not has_llm_key:
+    if not has_research:
         print(
-            "⚠️  No LLM key set (OPENROUTER/OPENAI/ANTHROPIC). The bot will fall back\n"
-            "    to the Metaculus LLM proxy. Free OpenRouter credits: "
-            "https://forms.gle/aQdYMq9Pisrf1v7d8\n"
+            "⚠️  No research source set (ASKNEWS_CLIENT_ID + ASKNEWS_SECRET, or EXA_API_KEY).\n"
+            "    The bot will forecast without research, which is much weaker.\n"
         )
 
     if problems:

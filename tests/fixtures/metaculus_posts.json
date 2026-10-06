@@ -1,0 +1,709 @@
+[
+ {
+  "id": 29783,
+  "title": "Will the 2024 World Chess Champion be decided in the first 10 games?",
+  "url_title": "",
+  "slug": "will-the-2024-world-chess-champion-be-decided-in-the-first-10-games",
+  "author_id": 113860,
+  "author_username": "RuslanBes",
+  "coauthors": [],
+  "projects": {
+   "question_series": [
+    {
+     "id": 32506,
+     "type": "question_series",
+     "name": "Q4 AI Forecasting Benchmark Tournament",
+     "slug": "aibq4",
+     "prize_pool": "30000.00",
+     "start_date": "2024-10-08T19:25:49Z",
+     "close_date": "2025-01-01T19:25:50Z",
+     "meta_description": "",
+     "is_ongoing": true,
+     "user_permission": null,
+     "created_at": "2024-10-07T19:26:23.380022Z",
+     "edited_at": "2024-10-07T19:26:23.380027Z",
+     "default_permission": "viewer",
+     "add_posts_to_main_feed": false
+    }
+   ],
+   "default_project": {
+    "id": 32506,
+    "type": "question_series",
+    "name": "Q4 AI Forecasting Benchmark Tournament",
+    "slug": "aibq4",
+    "prize_pool": "30000.00",
+    "start_date": "2024-10-08T19:25:49Z",
+    "close_date": "2025-01-01T19:25:50Z",
+    "meta_description": "",
+    "is_ongoing": true,
+    "user_permission": null,
+    "created_at": "2024-10-07T19:26:23.380022Z",
+    "edited_at": "2024-10-07T19:26:23.380027Z",
+    "default_permission": "viewer",
+    "add_posts_to_main_feed": false
+   }
+  },
+  "created_at": "2024-11-08T14:19:42.579234Z",
+  "published_at": "2024-11-08T15:30:00Z",
+  "edited_at": "2024-11-08T14:19:42.582780Z",
+  "curation_status": "approved",
+  "comment_count": 0,
+  "status": "open",
+  "resolved": false,
+  "actual_close_time": null,
+  "scheduled_close_time": "2024-11-09T15:30:00Z",
+  "scheduled_resolve_time": "2024-12-08T15:30:00Z",
+  "open_time": "2024-11-08T15:30:00Z",
+  "nr_forecasters": 23,
+  "question": {
+   "id": 29635,
+   "title": "Will the 2024 World Chess Champion be decided in the first 10 games?",
+   "description": "The [World Chess Championship 2024](https://en.wikipedia.org/wiki/World_Chess_Championship_2024) match between the reigning world champion Ding Liren (Rating: 2728 as of 1 Nov 2024) and the challenger Gukesh Dommaraju (Rating: 2783 as of 1 Nov 2024) is set to take place between 25 November and 13 December 2024, in Singapore.\n\nAs of November 1st, 2024, Ding Liren is [23rd in the world](https://2700chess.com/), but was in the top 5 for 6 consecutive years, reaching as high as #2, with his top rating being the 12th highest in the history of chess. He also [used to have](https://en.chessbase.com/post/ding-liren-profile-2024-fide) the longest unbeaten streak of 100 games, until Carsen surpassed it. Gukesh D has his own [set of achievements](https://en.wikipedia.org/wiki/Gukesh_Dommaraju), being the third-youngest grandmaster in history, the third-youngest to reach a chess rating of 2700, the youngest to reach a rating of 2750, the youngest Candidates Tournament winner and the youngest contender to compete for the World Championship.\n\nThe match will be best of 14 games; a score of at least 7½ would win the world championship. If the score is equal after 14 games, tiebreak games with faster time controls will be played. \n\nIn chess a win is 1 point and a draw is ½ point with a high tendency towards draws at the highest level.\n\nThe time control for each game in the classical portion of the match is 120 minutes per side for the first 40 moves and 30 minutes for the rest of the game, with a 30-second increment per move starting with move 41.",
+   "created_at": "2024-11-08T14:19:42.579234Z",
+   "open_time": "2024-11-08T15:30:00Z",
+   "cp_reveal_time": "2024-11-09T15:30:00Z",
+   "scheduled_resolve_time": "2024-12-08T15:30:00Z",
+   "actual_resolve_time": null,
+   "resolution_set_time": null,
+   "scheduled_close_time": "2024-11-09T15:30:00Z",
+   "actual_close_time": "2024-11-09T15:30:00Z",
+   "type": "binary",
+   "options": null,
+   "status": "open",
+   "possibilities": null,
+   "resolution": null,
+   "include_bots_in_aggregates": true,
+   "question_weight": 1.0,
+   "resolution_criteria": "This question will resolve as **Yes** if either player in the 2024 World Chess Championship match reaches 7.5 points before the 11th classical game (e.g. by winning 5 games and drawing another 5).\n\nThis question will also resolve as **Yes** if for any other reason the 2024 Chess Champion is declared by FIDE before the 11th classical game is played (e.g. a player forteits the match or is disqualified during the match).",
+   "fine_print": "* If the match is played by any other players than Ding Liren and Gukesh Dommaraju, the question will be **Annulled**.\n* If the result of the game 10 is not known by 7 January 2025 (and the 2024 Chess Champion is still not declared by that date) the question will resolve as **Ambiguous**.\n* If the results of one or more of the first 10 games are annulled, then these games are not included in the count of the games for the resolution. This includes the case when both players receive 0 points for the game for violating Fair Play policy.\n* If the 2024 Chess Champion title is later revoked (e.g. due to revealed fact of cheating), it will not affect the question resolution.",
+   "label": null,
+   "open_upper_bound": null,
+   "open_lower_bound": null,
+   "scaling": {
+    "range_max": null,
+    "range_min": null,
+    "zero_point": null
+   },
+   "post_id": 29783,
+   "aggregations": {
+    "recency_weighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "unweighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "single_aggregation": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "metaculus_prediction": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    }
+   }
+  },
+  "user_permission": "forecaster",
+  "vote": {
+   "score": 0,
+   "user_vote": null
+  },
+  "forecasts_count": 52,
+  "description": "The [World Chess Championship 2024](https://en.wikipedia.org/wiki/World_Chess_Championship_2024) match between the reigning world champion Ding Liren (Rating: 2728 as of 1 Nov 2024) and the challenger Gukesh Dommaraju (Rating: 2783 as of 1 Nov 2024) is set to take place between 25 November and 13 December 2024, in Singapore.\n\nAs of November 1st, 2024, Ding Liren is [23rd in the world](https://2700chess.com/), but was in the top 5 for 6 consecutive years, reaching as high as #2, with his top rating being the 12th highest in the history of chess. He also [used to have](https://en.chessbase.com/post/ding-liren-profile-2024-fide) the longest unbeaten streak of 100 games, until Carsen surpassed it. Gukesh D has his own [set of achievements](https://en.wikipedia.org/wiki/Gukesh_Dommaraju), being the third-youngest grandmaster in history, the third-youngest to reach a chess rating of 2700, the youngest to reach a rating of 2750, the youngest Candidates Tournament winner and the youngest contender to compete for the World Championship.\n\nThe match will be best of 14 games; a score of at least 7½ would win the world championship. If the score is equal after 14 games, tiebreak games with faster time controls will be played. \n\nIn chess a win is 1 point and a draw is ½ point with a high tendency towards draws at the highest level.\n\nThe time control for each game in the classical portion of the match is 120 minutes per side for the first 40 moves and 30 minutes for the rest of the game, with a 30-second increment per move starting with move 41."
+ },
+ {
+  "id": 31656,
+  "title": "What will the total number of tokens launched on the site pump.fun be, as of March 31, 2025?",
+  "url_title": "Total tokens launched on pump.fun on Mar 31, 2025?",
+  "slug": "total-tokens-launched-on-pumpfun-on-mar-31-2025",
+  "author_id": 211086,
+  "author_username": "noqbit",
+  "coauthors": [],
+  "created_at": "2025-01-13T12:30:48.385234Z",
+  "published_at": "2025-02-01T11:17:33.545941Z",
+  "edited_at": "2025-02-01T20:49:19.429842Z",
+  "curation_status": "approved",
+  "comment_count": 0,
+  "status": "approved",
+  "resolved": false,
+  "actual_close_time": null,
+  "scheduled_close_time": "2025-03-03T22:59:00Z",
+  "scheduled_resolve_time": "2025-04-01T21:59:00Z",
+  "open_time": "2025-02-03T17:00:00Z",
+  "nr_forecasters": 0,
+  "projects": {
+   "category": [
+    {
+     "id": 3693,
+     "name": "Cryptocurrencies",
+     "slug": "cryptocurrencies",
+     "description": "Cryptocurrencies",
+     "type": "category"
+    }
+   ],
+   "tournament": [
+    {
+     "id": 32630,
+     "type": "tournament",
+     "name": "🏆 Quarterly Cup 🏆",
+     "slug": "quarterly-cup",
+     "prize_pool": null,
+     "start_date": "2025-01-13T06:00:00Z",
+     "close_date": "2025-04-07T18:00:00Z",
+     "meta_description": "",
+     "is_ongoing": true,
+     "user_permission": null,
+     "created_at": "2025-01-10T19:55:20.161665Z",
+     "edited_at": "2025-02-01T19:54:32.817170Z",
+     "default_permission": "forecaster",
+     "visibility": "normal",
+     "is_current_content_translated": false
+    }
+   ],
+   "default_project": {
+    "id": 32630,
+    "type": "tournament",
+    "name": "🏆 Quarterly Cup 🏆",
+    "slug": "quarterly-cup",
+    "prize_pool": null,
+    "start_date": "2025-01-13T06:00:00Z",
+    "close_date": "2025-04-07T18:00:00Z",
+    "meta_description": "",
+    "is_ongoing": true,
+    "user_permission": null,
+    "created_at": "2025-01-10T19:55:20.161665Z",
+    "edited_at": "2025-02-01T19:54:32.817170Z",
+    "default_permission": "forecaster",
+    "visibility": "normal",
+    "is_current_content_translated": false
+   }
+  },
+  "question": {
+   "id": 31207,
+   "title": "What will the total number of tokens launched on the site pump.fun be, as of March 31, 2025?",
+   "description": "[pump.fun](https://en.wikipedia.org/wiki/Pump.fun) (commonly referred to as Pump) is a cryptocurrency trading platform for the Solana blockchain that enables users to create tokens and trade them immediately on the platform, as well as to launch them onto decentralized exchanges like Raydium. It has become famous for \"rug-pulls\" also called \"pump and dump\" schemes, which are a way the creator of a crypto token \"exit-scams\" their users, by selling their entire share at once. This was facilitated by the easy token creation process on the site.\n\nThe platform has come under scrutiny recently in relation to the livestreaming service it also offered as a way for users to advertise their tokens. It was indefinitely disabled as a result of misuse in extreme ways, such as animal abuse, torture, sexual activities and even [a faked suicide](https://www.dlnews.com/articles/defi/fake-suicide-on-pump-fun-prompted-outrage-and-a-shutdown/ \"a faked suicide\"). pump.fun has also suspended operations in the UK.\n\nLive and historical data about the site can be found on the [pump.fun dashboard](https://dune.com/adam_tehc/pumpfun) by [adam\\_tehc](https://dune.com/adam_tehc).",
+   "created_at": "2025-01-13T12:30:48.385794Z",
+   "open_time": "2025-02-03T17:00:00Z",
+   "cp_reveal_time": "2025-02-06T17:00:00Z",
+   "scheduled_resolve_time": "2025-04-01T21:59:00Z",
+   "actual_resolve_time": null,
+   "resolution_set_time": null,
+   "scheduled_close_time": "2025-03-03T22:59:00Z",
+   "actual_close_time": "2025-03-03T22:59:00Z",
+   "type": "numeric",
+   "options": [],
+   "group_variable": "",
+   "status": "upcoming",
+   "possibilities": null,
+   "resolution": null,
+   "include_bots_in_aggregates": false,
+   "question_weight": 1.0,
+   "resolution_criteria": "This question resolves as the value displayed on the [Cumulative Pump Tokens tracker](https://dune.com/queries/3756231/6378326) for March 31, 2025 when accessed by Metaculus on or after April 1, 2025.\n\n##### Note that this question closes early, on March 3, 2025.",
+   "fine_print": "If no value for March 31, 2025 is shown on the tracker before April 6, 2025, this question will resolve based on any comparable values found on other dashboards on [dune.com](https://dune.com/). If no such alternative dashboards are available, the question will be **annulled**.",
+   "label": "",
+   "open_upper_bound": true,
+   "open_lower_bound": true,
+   "scaling": {
+    "range_max": 12000000.0,
+    "range_min": 8000000.0,
+    "zero_point": null
+   },
+   "post_id": 31656,
+   "aggregations": {
+    "recency_weighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "unweighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "single_aggregation": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "metaculus_prediction": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    }
+   }
+  },
+  "user_permission": "forecaster",
+  "vote": {
+   "score": 0,
+   "user_vote": null
+  },
+  "forecasts_count": 0,
+  "is_current_content_translated": false
+ },
+ {
+  "id": 31858,
+  "title": "Which of the five largest companies in the world will see the highest stock price growth in February and March, 2025?",
+  "url_title": "Highest growth among top 5 companies in Feb/Mar, 2025?",
+  "slug": "highest-growth-among-top-5-companies-in-febmar-2025",
+  "author_id": 126626,
+  "author_username": "skmmcj",
+  "coauthors": [],
+  "created_at": "2025-01-23T17:45:32.220619Z",
+  "published_at": "2025-02-01T11:16:43.219980Z",
+  "edited_at": "2025-02-01T11:16:43.228754Z",
+  "curation_status": "approved",
+  "comment_count": 0,
+  "status": "approved",
+  "resolved": false,
+  "actual_close_time": null,
+  "scheduled_close_time": "2025-03-25T08:00:00Z",
+  "scheduled_resolve_time": "2025-04-01T11:00:00Z",
+  "open_time": "2025-02-03T17:00:00Z",
+  "nr_forecasters": 0,
+  "projects": {
+   "category": [
+    {
+     "id": 3698,
+     "name": "Economy & Business",
+     "slug": "economy-business",
+     "description": "Economy & Business",
+     "type": "category"
+    }
+   ],
+   "tournament": [
+    {
+     "id": 32630,
+     "type": "tournament",
+     "name": "🏆 Quarterly Cup 🏆",
+     "slug": "quarterly-cup",
+     "prize_pool": null,
+     "start_date": "2025-01-13T06:00:00Z",
+     "close_date": "2025-04-07T18:00:00Z",
+     "meta_description": "",
+     "is_ongoing": true,
+     "user_permission": null,
+     "created_at": "2025-01-10T19:55:20.161665Z",
+     "edited_at": "2025-02-01T19:54:32.817170Z",
+     "default_permission": "forecaster",
+     "visibility": "normal",
+     "is_current_content_translated": false
+    }
+   ],
+   "default_project": {
+    "id": 32630,
+    "type": "tournament",
+    "name": "🏆 Quarterly Cup 🏆",
+    "slug": "quarterly-cup",
+    "prize_pool": null,
+    "start_date": "2025-01-13T06:00:00Z",
+    "close_date": "2025-04-07T18:00:00Z",
+    "meta_description": "",
+    "is_ongoing": true,
+    "user_permission": null,
+    "created_at": "2025-01-10T19:55:20.161665Z",
+    "edited_at": "2025-02-01T19:54:32.817170Z",
+    "default_permission": "forecaster",
+    "visibility": "normal",
+    "is_current_content_translated": false
+   }
+  },
+  "question": {
+   "id": 31365,
+   "title": "Which of the five largest companies in the world will see the highest stock price growth in February and March, 2025?",
+   "description": "As of January 23, 2025, [the largest companies in the world](https://companiesmarketcap.com/) are all US tech companies:\n\n* NVIDIA, \\$3.565T\n* Apple, \\$3.359T\n* Microsoft, \\$3.292T\n* Amazon, \\$2.456T\n* Alphabet, \\$2.451T\n\nwhich together total more than 25% of the S\\&P 500.",
+   "created_at": "2025-01-23T17:45:32.220974Z",
+   "open_time": "2025-02-03T17:00:00Z",
+   "cp_reveal_time": "2025-02-07T17:00:00Z",
+   "scheduled_resolve_time": "2025-04-01T11:00:00Z",
+   "actual_resolve_time": null,
+   "resolution_set_time": null,
+   "scheduled_close_time": "2025-03-25T08:00:00Z",
+   "actual_close_time": "2025-03-25T08:00:00Z",
+   "type": "multiple_choice",
+   "options": [
+    "NVDA",
+    "AAPL",
+    "MSFT",
+    "AMZN",
+    "GOOG"
+   ],
+   "group_variable": "Stock",
+   "status": "upcoming",
+   "possibilities": null,
+   "resolution": null,
+   "include_bots_in_aggregates": false,
+   "question_weight": 1.0,
+   "resolution_criteria": "This question will resolve as the stock with the highest relative growth from January 31, 2025 to March 31, 2025, according to [Yahoo Finance](https://finance.yahoo.com/).\n\nHistorical data can be accessed at the following locations:\n\n* [AAPL](https://finance.yahoo.com/quote/AAPL/history/)\n* [AMZN](https://finance.yahoo.com/quote/AMZN/history/)\n* [GOOG](https://finance.yahoo.com/quote/GOOG/history/)\n* [MSFT](https://finance.yahoo.com/quote/MSFT/history/)\n* [NVDA](https://finance.yahoo.com/quote/NVDA/history/)",
+   "fine_print": "* The ratio of the adjusted closing price on March 31 to the adjusted closing price on January 31 will be used to determine the highest relative growth.\n* If Yahoo Finance has not released the relevant data before April 7, 2025, Metaculus might use alternative credible sources to resolve this question.\n* If a stock splits, the price will be adjusted for the calculations to reflect the pre-split value if Yahoo Finance does not already make the necessary adjustment.",
+   "label": "",
+   "open_upper_bound": null,
+   "open_lower_bound": null,
+   "scaling": {
+    "range_max": null,
+    "range_min": null,
+    "zero_point": null
+   },
+   "post_id": 31858,
+   "aggregations": {
+    "recency_weighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "unweighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "single_aggregation": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "metaculus_prediction": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    }
+   }
+  },
+  "user_permission": "forecaster",
+  "vote": {
+   "score": 0,
+   "user_vote": null
+  },
+  "forecasts_count": 0,
+  "is_current_content_translated": false
+ },
+ {
+  "id": 31818,
+  "title": "Israel and Hamas signed a ceasefire on January 15 2025, which came into effect on January 19 2025. By when will one side or both break the ceasefire?",
+  "url_title": "When will the ceasefire end between Israel and Hamas?",
+  "slug": "when-will-the-ceasefire-end-between-israel-and-hamas",
+  "author_id": 127636,
+  "author_username": "pbulises",
+  "coauthors": [],
+  "created_at": "2025-01-21T23:27:41.211481Z",
+  "published_at": "2025-01-23T16:46:40.735933Z",
+  "edited_at": "2025-01-29T18:50:46.908494Z",
+  "curation_status": "approved",
+  "comment_count": 1,
+  "status": "open",
+  "resolved": false,
+  "actual_close_time": null,
+  "scheduled_close_time": "2025-12-31T22:59:00Z",
+  "scheduled_resolve_time": "2025-12-31T22:59:00Z",
+  "open_time": "2025-01-24T16:39:35Z",
+  "nr_forecasters": 11,
+  "projects": {
+   "community": [
+    {
+     "id": 32511,
+     "name": "Uncharted Territories",
+     "type": "community",
+     "slug": "uncharted",
+     "description": "A forecasting community for Uncharted Territories by Tomas Pueyo",
+     "order": 0,
+     "header_image": "https://metaculus-web-media.s3.amazonaws.com/71771a15-eaf3-40d4-8217-073eb01268ff_1280x1107.webp",
+     "header_logo": null,
+     "followers_count": 0,
+     "default_permission": "forecaster",
+     "visibility": "unlisted",
+     "created_by": {
+      "id": 127636,
+      "username": "pbulises",
+      "is_bot": false,
+      "is_staff": false
+     }
+    }
+   ],
+   "default_project": {
+    "id": 32511,
+    "name": "Uncharted Territories",
+    "type": "community",
+    "slug": "uncharted",
+    "description": "A forecasting community for Uncharted Territories by Tomas Pueyo",
+    "order": 0,
+    "header_image": "https://metaculus-web-media.s3.amazonaws.com/71771a15-eaf3-40d4-8217-073eb01268ff_1280x1107.webp",
+    "header_logo": null,
+    "followers_count": 0,
+    "default_permission": "forecaster",
+    "visibility": "unlisted",
+    "created_by": {
+     "id": 127636,
+     "username": "pbulises",
+     "is_bot": false,
+     "is_staff": false
+    }
+   },
+   "category": [
+    {
+     "id": 3687,
+     "name": "Geopolitics",
+     "slug": "geopolitics",
+     "description": "Geopolitics",
+     "type": "category"
+    }
+   ]
+  },
+  "question": {
+   "id": 31342,
+   "title": "Israel and Hamas signed a ceasefire on January 15 2025, which came into effect on January 19 2025. By when will one side or both break the ceasefire?",
+   "description": "Israel and Hamas signed a ceasefire on January 15 2025, which came into effect on January 19 2025. But Israel has manifested its intention to eradicate Hamas, while Hamas's goal is still to eliminate the state of Israel and has promised to carry out another attack like on October 7th 2023. As a result, it's likely that the ceasefire won't result in peace, and will be broken instead. When will that happen?",
+   "created_at": "2025-01-21T23:27:41.211884Z",
+   "open_time": "2025-01-24T16:39:35Z",
+   "cp_reveal_time": "2025-12-31T16:39:00Z",
+   "scheduled_resolve_time": "2025-12-31T22:59:00Z",
+   "actual_resolve_time": null,
+   "resolution_set_time": null,
+   "scheduled_close_time": "2025-12-31T22:59:00Z",
+   "actual_close_time": "2025-12-31T22:59:00Z",
+   "type": "date",
+   "options": [],
+   "group_variable": "",
+   "status": "open",
+   "possibilities": null,
+   "resolution": null,
+   "include_bots_in_aggregates": false,
+   "question_weight": 1.0,
+   "resolution_criteria": "At least five renowned global media have reported that the ceasefire has ended, including the NYT, Washington Post, The Guardian, Le Monde, The Times, Reuters, Associated Press, AFP, BBC, CNN, Fox News.",
+   "fine_print": "",
+   "label": "",
+   "open_upper_bound": true,
+   "open_lower_bound": false,
+   "scaling": {
+    "range_max": 1767221940.0,
+    "range_min": 1737588240.0,
+    "zero_point": null
+   },
+   "post_id": 31818,
+   "aggregations": {
+    "recency_weighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "unweighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "single_aggregation": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    },
+    "metaculus_prediction": {
+     "history": [],
+     "latest": null,
+     "score_data": {}
+    }
+   }
+  },
+  "user_permission": "forecaster",
+  "vote": {
+   "score": 0,
+   "user_vote": null
+  },
+  "forecasts_count": 13,
+  "is_current_content_translated": false
+ },
+ {
+  "id": 38880,
+  "title": "How many major US labor strikes with generative AI as one of their main reasons will start in 2029?",
+  "short_title": "How many US labor strikes due to AI in 2029?",
+  "url_title": "How many US labor strikes due to AI in 2029?",
+  "slug": "how-many-us-labor-strikes-due-to-ai-in-2029",
+  "author_id": 126626,
+  "author_username": "skmmcj",
+  "coauthors": [],
+  "created_at": "2025-07-14T12:05:46.174194Z",
+  "published_at": "2025-07-14T15:31:48Z",
+  "edited_at": "2025-08-05T04:24:51.580071Z",
+  "curation_status": "approved",
+  "curation_status_updated_at": "2025-07-14T15:31:53.112483Z",
+  "comment_count": 0,
+  "status": "open",
+  "resolved": false,
+  "actual_close_time": null,
+  "scheduled_close_time": "2029-12-31T13:00:00Z",
+  "scheduled_resolve_time": "2030-01-01T13:00:00Z",
+  "open_time": "2025-07-14T15:32:00Z",
+  "nr_forecasters": 6,
+  "html_metadata_json": null,
+  "projects": {
+   "site_main": [
+    {
+     "id": 144,
+     "type": "site_main",
+     "name": "Metaculus Community",
+     "slug": null,
+     "header_image": null,
+     "prize_pool": null,
+     "start_date": null,
+     "close_date": null,
+     "forecasting_end_date": null,
+     "meta_description": "",
+     "is_ongoing": null,
+     "user_permission": "forecaster",
+     "created_at": "2023-11-08T16:55:29.484707Z",
+     "edited_at": "2025-07-18T17:28:18.838588Z",
+     "score_type": null,
+     "default_permission": "forecaster",
+     "visibility": "normal",
+     "is_current_content_translated": false
+    }
+   ],
+   "community": [
+    {
+     "id": 32809,
+     "name": "AI Diffusion",
+     "type": "community",
+     "slug": "diffusion-community",
+     "description": "Tracking the spread of AI capabilities through society with the [AI Diffusion Index](https://www.metaculus.com/index/diffusion-index/) and operated by Matt Hodak and Mishaal Lakhani, authors of [Convergence Analysis](https://www.convergenceanalysis.org/)' report, [*Decoding  AI Diffusion*](https://www.convergenceanalysis.org/fellowships/spar-economics/decoding-ai-diffusion-mapping-the-path-of-transformative-ai-across-industries).",
+     "order": 0,
+     "header_image": null,
+     "header_logo": null,
+     "followers_count": 5,
+     "default_permission": "forecaster",
+     "visibility": "not_in_main_feed",
+     "created_by": {
+      "id": 272894,
+      "username": "mghodak",
+      "is_bot": false,
+      "is_staff": false
+     }
+    }
+   ],
+   "default_project": {
+    "id": 32809,
+    "name": "AI Diffusion",
+    "type": "community",
+    "slug": "diffusion-community",
+    "description": "Tracking the spread of AI capabilities through society with the [AI Diffusion Index](https://www.metaculus.com/index/diffusion-index/) and operated by Matt Hodak and Mishaal Lakhani, authors of [Convergence Analysis](https://www.convergenceanalysis.org/)' report, [*Decoding  AI Diffusion*](https://www.convergenceanalysis.org/fellowships/spar-economics/decoding-ai-diffusion-mapping-the-path-of-transformative-ai-across-industries).",
+    "order": 0,
+    "header_image": null,
+    "header_logo": null,
+    "followers_count": 5,
+    "default_permission": "forecaster",
+    "visibility": "not_in_main_feed",
+    "created_by": {
+     "id": 272894,
+     "username": "mghodak",
+     "is_bot": false,
+     "is_staff": false
+    }
+   },
+   "category": [
+    {
+     "id": 3698,
+     "name": "Economy & Business",
+     "slug": "economy-business",
+     "emoji": "💼",
+     "description": "",
+     "type": "category"
+    },
+    {
+     "id": 3694,
+     "name": "Artificial Intelligence",
+     "slug": "artificial-intelligence",
+     "emoji": "🤖",
+     "description": "",
+     "type": "category"
+    }
+   ]
+  },
+  "question": {
+   "id": 38195,
+   "title": "How many major US labor strikes with generative AI as one of their main reasons will start in 2029?",
+   "created_at": "2025-07-14T12:05:46.174627Z",
+   "open_time": "2025-07-14T15:32:00Z",
+   "cp_reveal_time": "2025-07-19T15:31:48Z",
+   "spot_scoring_time": "2029-12-31T13:00:00Z",
+   "scheduled_resolve_time": "2030-01-01T13:00:00Z",
+   "actual_resolve_time": null,
+   "resolution_set_time": null,
+   "scheduled_close_time": "2029-12-31T13:00:00Z",
+   "actual_close_time": "2029-12-31T13:00:00Z",
+   "type": "discrete",
+   "options": null,
+   "group_variable": "",
+   "status": "open",
+   "possibilities": null,
+   "resolution": null,
+   "include_bots_in_aggregates": false,
+   "question_weight": 1.0,
+   "default_score_type": "peer",
+   "label": "",
+   "unit": "strikes",
+   "open_upper_bound": true,
+   "open_lower_bound": false,
+   "inbound_outcome_count": 8,
+   "scaling": {
+    "range_max": 7.5,
+    "range_min": -0.5,
+    "zero_point": null,
+    "open_upper_bound": true,
+    "open_lower_bound": false,
+    "inbound_outcome_count": 8,
+    "continuous_range": [
+     -0.5,
+     0.6428571428571428,
+     1.7857142857142856,
+     2.9285714285714284,
+     4.071428571428571,
+     5.2142857142857135,
+     6.357142857142857,
+     7.5
+    ]
+   },
+   "group_rank": null,
+   "description": "As generative AI has been getting better and more common, there's been a significant increase in the number of labor strikes that seek protection from this new technology. The [2023 Writers Guild of America strike](https://en.wikipedia.org/wiki/2023_Writers_Guild_of_America_strike) resulted in a an [agreement](https://apnews.com/article/hollywood-ai-strike-wga-artificial-intelligence-39ab72582c3a15f77510c9c30a45ffc8) that\n\n> requires studios and production companies to disclose to writers if any material given to them has been generated by AI partially or in full. AI cannot be a credited writer. AI cannot write or rewrite “literary material.” AI-generated writing cannot be source material.\n\nIn parallel, the [2023 SAG-AFTRA strike](https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike) secured [various agreements](https://www.sagaftra.org/contracts-industry-resources/member-resources/artificial-intelligence/sag-aftra-ai-bargaining-and) that protect the rights of actors against the unauthorized use of their \"digital replica\" – AI-generated videos and recordings of their likeness that could potentially substitute human performers. In 2024, [another SAG-AFTRA begun](https://en.wikipedia.org/wiki/2024%E2%80%93present_SAG-AFTRA_video_game_strike), this time on behalf of voice actors and motion capture artists, also seeking protections from generative AI. The strike is still ongoing as of May 2025.",
+   "resolution_criteria": "This question will resolve as the number of major work stoppages recorded by the US Bureau of Labor Statistics in their [Detailed Monthly Listing](https://www.bls.gov/wsp/) that fulfil both of the following criteria:\n\n* They have a *Work stoppage beginning date* or a *Work stoppage ending date* after December 31, 2028 and before January 1, 2030.\n* Generative AI is related to at least one of their primary demands, according to [credible sources](https://www.metaculus.com/faq/#definitions).",
+   "fine_print": "* Any reason related to generative AI would count for this question, including but not limited to AI-related job displacement, AI workplace policies, or disputes about intellectual property.\n* Note that BLS's list includes only strikes that involve at least 1,000 workers and last for one shift or longer.\n* An example of a strike that would count is the [SAG-AFTRA video game strike](https://en.wikipedia.org/wiki/2024%E2%80%93present_SAG-AFTRA_video_game_strike) begun in 2024, which [according to the union](https://www.sagaftra.org/sag-aftra-strikes-video-games-over-ai) involved demands \"that companies provide members with consent, compensation and transparency with regard to digital replicas and generative A.I. systems used to create synthetic performances.\"",
+   "post_id": 38880,
+   "aggregations": {
+    "recency_weighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {},
+     "movement": null
+    },
+    "unweighted": {
+     "history": [],
+     "latest": null,
+     "score_data": {},
+     "movement": null
+    },
+    "single_aggregation": {
+     "history": [],
+     "latest": null,
+     "score_data": {},
+     "movement": null
+    },
+    "metaculus_prediction": {
+     "history": [],
+     "latest": null,
+     "score_data": {},
+     "movement": null
+    }
+   }
+  },
+  "user_permission": "forecaster",
+  "vote": {
+   "score": 0,
+   "user_vote": null
+  },
+  "forecasts_count": 17,
+  "subscriptions": [],
+  "unread_comment_count": 0,
+  "last_viewed_at": "2025-08-05T04:24:41.747073Z",
+  "key_factors": [],
+  "is_current_content_translated": false
+ }
+]
